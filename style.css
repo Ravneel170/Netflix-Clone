@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  background-color: #1c1b1b;
+}
+
+.uppercontainer {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  margin-left: 2.5rem;
+}
+
+.navbar {
+  width: 50%;
+  display: flex;
+  align-items: center;
+
+}
+
+.icons {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo img {
+
+  height: 80px;
+  width: 170px;
+}
+
+.navbar li {
+  list-style: none;
+  color: white;
+  margin-left: 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar li:hover {
+  opacity: 0.75;
+}
+
+.icons i {
+
+  color: white;
+  margin-left: 20px;
+  margin-right: 1rem;
+  font-size: 20px;
+}
+
+.arrow:hover {
+  transform: rotate(180deg);
+  transition: 370ms;
+}
+
+@media (max-width:950px) {
+  .arrow {
+    display: none;
+  }
+}
+
+
+@media (max-width:950px) {
+  .navbar li {
+    display: none;
+  }
+}
+
+.Container2 {
+  height: 800px;
+  width: 100%;
+}
+
+.Container2 img {
+  height: 850px;
+  width: 100%;
+}
+
+@media(max-width:700px) {
+  .Container2 img {
+    width: auto;
+    height: auto;
+  }
+}
+
+.Container2 .suits h2 {
+  position: absolute;
+  color: red;
+  background-color: black;
+  top: 430px;
+  left: 110px;
+  right: auto;
+  background-color: transparent;
+  font-size: 150px;
+}
+
+.Container2 .top10 {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 600px;
+  left: 60px;
+  right: auto;
+  background-color: transparent;
+}
+
+.Container2 .rank h2 {
+
+  font-size: 20px;
+  position: absolute;
+  top: 605px;
+  left: 110px;
+  color: white;
+  background-color: transparent;
+  font-size: x-large;
+  font-weight: 900px;
+}
+
+.Container2 p {
+  color: white;
+  position: absolute;
+  top: 660px;
+  left: 70px;
+  background-color: transparent;
+  font-weight: 650;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content h2 {
+  color: white;
+  position: absolute;
+  top: 900px;
+  left: 14px;
+  /* border: 2px solid white; */
+}
+
+.content .movies img {
+  height: 200px;
+  width: 204px;
+  margin-top: 4rem;
+  margin-left: 0.65rem;
+  margin-right: 0rem;
+}
+
+.content {
+  display: flex;
+}
+
+.award h2 {
+
+  color: white;
+  position: absolute;
+  top: 1155px;
+  left: 12px;
+}
+
+.award {
+  display: flex;
+}
+
+.award .movies img {
+  height: 200px;
+  width: 204px;
+  margin-top: 50px;
+  margin-left: 0.70rem;
+  margin-right: 0rem;
+}
+
+@media(max-width:750px) {
+  .content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width:750px) {
+  .award {
+    flex-direction: column;
+  }
+}
