@@ -89,6 +89,13 @@
   width: 100%;
 }
 
+@media(max-width:700px) {
+  .Container2 img {
+    width: auto;
+    height: auto;
+  }
+}
+
 .Container2 .suits h2 {
   position: absolute;
   color: red;
